@@ -81,8 +81,8 @@ function oldham_coupling_continuous()
         
         % Calculate current positions
         current_theta = omega * t;
-        x1 = offset*cos(current_theta - pi/2);
-        y1 = offset*sin(current_theta - pi/2);
+        x1 = offset*cos(current_theta - pi/2); %There was only current_theta as input, theoretically, this should be correct, however,
+        y1 = offset*sin(current_theta - pi/2); % In practice, it wasnt correct
         x2 = offset*cos(current_theta) - (offset^2)/(2*R)*cos(2*current_theta);
         y2 = offset*sin(current_theta) - (offset^2)/(2*R)*sin(2*current_theta);
         x3 = offset*cos(current_theta + phase_diff);
