@@ -1,4 +1,4 @@
-# Temporary Repository - will be deleted later 
+# Temporary Repository 
 
 Please do not use the script without my permission. 
 
