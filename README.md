@@ -3,9 +3,10 @@
 Update (To my teammates): The code is ready for simulation. You may take a look at it and adjust to your liking. However, note that, this simulation is a bit different from the mathematical model that we have built. Probably because the elliptical trammel didn't account for the movement of the middle flange, although the Oldham Coupling and the Elliptical Trammel are both double-slider crank mechansim.
 
 # Files
-- `oldham_coupling_continuous.m` - This is our main code for simulation of Oldham coupling.
+- `oldham_coupling_continuous.m` - This is our main code for simulation of Oldham coupling. Although incorrect, it serves a purpose to help the viewer visuallize the similarity between OHC and the Elliptical Trammel. One of my proudest work.
 - `oldham_obsidian.m` - Is an Elliptical Trammel simulation - the "root" of the script above, albeit have difference in the overall math used 
 - `Media` folder - Storage of pictures/videos of simulation from Matlab, may come with annotations
+- `oldham_coupling.m` - This is an accurate version of the simulation, where flange 1 and 3 doesn't move
 
 # Notes
 Although the movement around the axis may look off center, but, rest assured, this is still the theoretically correct movements of the mechanism. Perhaps they are the same mathematical model but differs in terms of how one would alter the elements in the function. 
