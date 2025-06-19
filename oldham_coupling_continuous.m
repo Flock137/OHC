@@ -81,6 +81,7 @@ x3_data = [];
 y3_data = [];
 time_data = [];
 
+% Loop begin
 while running
     %% Update time
     t = t + dt;
@@ -145,4 +146,6 @@ while running
         break;
     end
 end
+% Loop ends
 end
+
