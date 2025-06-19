@@ -7,6 +7,7 @@ Update (To my teammates): The code is ready for simulation. You may take a look 
 - `oldham_obsidian.m` - Is an Elliptical Trammel simulation - the "root" of the script above, albeit have difference in the overall math used 
 - `Media` folder - Storage of pictures/videos of simulation from Matlab, may come with annotations
 - `oldham_coupling.m` - This is an accurate version of the simulation, where flange 1 and 3 doesn't move
+- `CAD model` - Store the 3D model of the project
 
 # Notes
 Although the movement around the axis may look off center, but, rest assured, this is still the theoretically correct movements of the mechanism. Perhaps they are the same mathematical model but differs in terms of how one would alter the elements in the function. 
